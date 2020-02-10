@@ -14,9 +14,20 @@
 body {
   background: green;
 }
-.card {
-  height: 400px;
+.suit {
+  color: black;
 }
+
+.red:before,
+.red:after {
+  content: "\u2665";
+  content: "\u2666";
+  color: red;
+}
+.black {
+  color: black;
+}
+
 #head,
 #foot {
   font-size: 60px;
